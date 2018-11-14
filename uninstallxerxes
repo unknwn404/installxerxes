@@ -1,0 +1,5 @@
+echo "Black Cyber99"
+echo "Oops! You Are Uninstalling Xerxes"
+rm -rf $PREFIX/bin/xerxes
+rm -rf $PREFIX/bin/xerxes.c
+echo "Done"
