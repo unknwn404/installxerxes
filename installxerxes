@@ -1,0 +1,34 @@
+#!/bin/bash
+echo "Black Cyber99"
+echo "You Are Going To Install Xerxes The Most Powerful DDOS Tool"
+echo "This Script Will Automatically Install Xerxes In Your Termux"
+echo "Script Has Been Created By Black Cyber99 Box 4 Crew"
+echo "Rabby Hossain"
+echo "So Sit Back And Relax"
+cd $HOME
+apt update
+apt upgrade -y
+apt install git wget clang -y
+clear
+git clone https://github.com/zanyarjamal/xerxes
+cd xerxes
+gcc xerxes.c -o xerxes
+cp -rf xerxes $PREFIX/bin
+cp -rf xerxes.c $PREFIX/bin
+cd $HOME
+rm -rf xerxes
+
+cd $PREFIX/bin
+wget https://raw.githubusercontent.com/unknwn404/installxerxes/master/reinstallxerxes
+cd $PREFIX/bin
+wget https://raw.githubusercontent.com/unknwn404/installxerxes/master/uninstallxerxes
+cd $PREFIX/bin
+chmod +x *
+clear
+echo "Installation Has Been Completed"
+echo "Run Xerxes By Typing This Command"
+echo "xerxes <website/ip> 80"
+echo "If You Face Any Problem Then Try To Reinstall This Tool By Typing <reinstallxerxces> And You Can Also Contact Me"
+echo "To Uninstall This Tool Type <uninstallxerxes>"
+echo "Good Bye"
+echo "Happy DDOS"
